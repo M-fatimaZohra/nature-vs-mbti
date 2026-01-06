@@ -1,0 +1,138 @@
+/* Responsive design overrides for Nature and Its Beauty */
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+    .page-wrapper {
+        max-width: 90%;
+    }
+
+    .site-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .nature-quote {
+        font-size: 1.4rem;
+    }
+
+    .nature-section h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .page-wrapper {
+        max-width: 95%;
+        padding: 0 10px;
+    }
+
+    .site-header {
+        padding: 2rem 0 1.5rem;
+    }
+
+    .site-header h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .site-header .subtitle {
+        font-size: 1rem;
+    }
+
+    .nature-quote {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+
+    .nature-section {
+        padding: 2.5rem 0;
+        margin: 1.5rem 0;
+    }
+
+    .nature-section h2 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .calming-description {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+    .site-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .site-header .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .nature-quote {
+        font-size: 1.1rem;
+    }
+
+    .nature-section h2 {
+        font-size: 1.4rem;
+    }
+
+    .calming-description {
+        font-size: 0.95rem;
+    }
+
+    .page-wrapper {
+        padding: 0 8px;
+    }
+}
+
+/* Very small screens */
+@media (max-width: 320px) {
+    .site-header h1 {
+        font-size: 1.3rem;
+    }
+
+    .nature-quote {
+        font-size: 1rem;
+    }
+
+    .nature-section h2 {
+        font-size: 1.3rem;
+    }
+
+    .calming-description {
+        font-size: 0.9rem;
+    }
+}
+
+/* High contrast for accessibility */
+@media (prefers-contrast: high) {
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    .forest-theme {
+        background-color: #ffffff;
+    }
+
+    .ocean-theme {
+        background-color: #ffffff;
+    }
+
+    .mountain-theme {
+        background-color: #ffffff;
+    }
+
+    .sky-theme {
+        background-color: #ffffff;
+    }
+}
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    body {
+        scroll-behavior: auto;
+    }
+}

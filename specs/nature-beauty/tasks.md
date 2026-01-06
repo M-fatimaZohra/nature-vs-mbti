@@ -34,10 +34,10 @@ Derived from:
 
 ## Task Group 1: Content Definition (Pre-Code)
 
-- [ ] Identify 4 core nature themes (Forest, Ocean, Mountain, Sky)
-- [ ] Write one emotional goal per theme (e.g., calm, wonder, balance)
-- [ ] Draft 2–3 sentence descriptions aligned with emotional goals
-- [ ] Review language for simplicity and universality
+- [X] Identify 4 core nature themes (Forest, Ocean, Mountain, Sky)
+- [X] Write one emotional goal per theme (e.g., calm, wonder, balance)
+- [X] Draft 2–3 sentence descriptions aligned with emotional goals
+- [X] Review language for simplicity and universality
 
 📌 Output: Finalized text content (no HTML yet)
 
@@ -45,10 +45,10 @@ Derived from:
 
 ## Task Group 2: Semantic Structure
 
-- [ ] Define semantic HTML sections for each nature theme
-- [ ] Decide heading hierarchy (h1 → h2 → p)
-- [ ] Ensure structure supports screen readers
-- [ ] Validate that structure matches planned page flow
+- [X] Define semantic HTML sections for each nature theme
+- [X] Decide heading hierarchy (h1 → h2 → p)
+- [X] Ensure structure supports screen readers
+- [X] Validate that structure matches planned page flow
 
 📌 Output: HTML skeleton without styling
 
@@ -56,10 +56,10 @@ Derived from:
 
 ## Task Group 3: Visual System Design
 
-- [ ] Select color palette based on emotional intent
-- [ ] Choose typography style (serif vs sans-serif reasoning)
-- [ ] Define spacing and layout rules (margins, padding)
-- [ ] Document design decisions briefly in comments
+- [X] Select color palette based on emotional intent
+- [X] Choose typography style (serif vs sans-serif reasoning)
+- [X] Define spacing and layout rules (margins, padding)
+- [X] Document design decisions briefly in comments
 
 📌 Output: CSS foundation rules
 
@@ -67,10 +67,10 @@ Derived from:
 
 ## Task Group 4: Interaction & Experience
 
-- [ ] Add smooth scrolling behavior
-- [ ] Ensure reading flow is uninterrupted
-- [ ] Verify no distracting motion exists
-- [ ] Test scroll experience manually
+- [X] Add smooth scrolling behavior
+- [X] Ensure reading flow is uninterrupted
+- [X] Verify no distracting motion exists
+- [X] Test scroll experience manually
 
 📌 Output: Minimal JS or CSS-based interactions
 
@@ -78,10 +78,10 @@ Derived from:
 
 ## Task Group 5: Validation & Review
 
-- [ ] Verify content matches specification intent
-- [ ] Check responsiveness on small and large screens
-- [ ] Re-read page as a user, not a developer
-- [ ] Identify one improvement for clarity or calmness
+- [X] Verify content matches specification intent
+- [X] Check responsiveness on small and large screens
+- [X] Re-read page as a user, not a developer
+- [X] Identify one improvement for clarity or calmness
 
 📌 Output: Ready-for-commit version
 

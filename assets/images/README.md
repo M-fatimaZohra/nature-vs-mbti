@@ -1,0 +1,1 @@
+<!-- Placeholder nature images will go here if needed -->

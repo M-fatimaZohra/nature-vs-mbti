@@ -1,0 +1,13 @@
+{
+  "name": "nature-and-its-beauty",
+  "version": "1.0.0",
+  "description": "A calming, nature-focused website that allows users to explore different aspects of nature through thoughtful descriptions and a minimal interface.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -o",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["nature", "calming", "minimal", "web", "html", "css", "javascript"],
+  "author": "Specify AI",
+  "license": "MIT"
+}

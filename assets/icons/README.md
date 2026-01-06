@@ -1,0 +1,1 @@
+<!-- Placeholder nature icons will go here if needed -->
