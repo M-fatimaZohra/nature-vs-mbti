@@ -1,0 +1,118 @@
+/* MBTI-specific styling for Nature Perspectives */
+
+/* MBTI Grid Layout */
+.mbti-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* MBTI Card Styling */
+.mbti-card {
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.mbti-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.mbti-type {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+.mbti-name {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 8px;
+    color: #34495e;
+}
+
+.perspective {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #7f8c8d;
+}
+
+.description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #34495e;
+    margin-bottom: 12px;
+}
+
+.category-tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ecf0f1;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Category Section Styling */
+.categories-container {
+    margin: 30px 0;
+}
+
+.category-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.category-header {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+/* Responsive adjustments for MBTI content */
+@media (max-width: 768px) {
+    .mbti-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .category-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mbti-type {
+        font-size: 1.3rem;
+    }
+
+    .mbti-name {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .mbti-card {
+        padding: 12px;
+    }
+
+    .mbti-type {
+        font-size: 1.2rem;
+    }
+}

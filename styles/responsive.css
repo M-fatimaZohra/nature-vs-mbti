@@ -1,4 +1,4 @@
-/* Responsive design overrides for Nature and Its Beauty */
+/* Responsive design overrides for MBTI Perspectives on Nature */
 
 /* Tablet styles */
 @media (max-width: 1024px) {
@@ -10,11 +10,7 @@
         font-size: 2.2rem;
     }
 
-    .nature-quote {
-        font-size: 1.4rem;
-    }
-
-    .nature-section h2 {
+    .main-content h2 {
         font-size: 1.8rem;
     }
 }
@@ -39,24 +35,22 @@
         font-size: 1rem;
     }
 
-    .nature-quote {
-        font-size: 1.2rem;
-        padding: 0.8rem;
-    }
-
-    .nature-section {
-        padding: 2.5rem 0;
+    .introduction {
+        padding: 1rem;
         margin: 1.5rem 0;
     }
 
-    .nature-section h2 {
-        font-size: 1.6rem;
-        margin-bottom: 1rem;
+    .introduction p {
+        font-size: 1rem;
     }
 
-    .calming-description {
-        font-size: 1rem;
-        padding: 0 0.5rem;
+    .main-content {
+        padding: 1.5rem 0;
+    }
+
+    .main-content h2 {
+        font-size: 1.6rem;
+        margin: 1.5rem 0 1rem;
     }
 }
 
@@ -70,16 +64,8 @@
         font-size: 0.9rem;
     }
 
-    .nature-quote {
-        font-size: 1.1rem;
-    }
-
-    .nature-section h2 {
+    .main-content h2 {
         font-size: 1.4rem;
-    }
-
-    .calming-description {
-        font-size: 0.95rem;
     }
 
     .page-wrapper {
@@ -93,16 +79,8 @@
         font-size: 1.3rem;
     }
 
-    .nature-quote {
-        font-size: 1rem;
-    }
-
-    .nature-section h2 {
+    .main-content h2 {
         font-size: 1.3rem;
-    }
-
-    .calming-description {
-        font-size: 0.9rem;
     }
 }
 
@@ -112,27 +90,15 @@
         background-color: #ffffff;
         color: #000000;
     }
-
-    .forest-theme {
-        background-color: #ffffff;
-    }
-
-    .ocean-theme {
-        background-color: #ffffff;
-    }
-
-    .mountain-theme {
-        background-color: #ffffff;
-    }
-
-    .sky-theme {
-        background-color: #ffffff;
-    }
 }
 
 /* Reduced motion for accessibility */
 @media (prefers-reduced-motion: reduce) {
-    body {
-        scroll-behavior: auto;
+    .mbti-card {
+        transition: none;
+    }
+
+    .mbti-card:hover {
+        transform: none;
     }
 }
