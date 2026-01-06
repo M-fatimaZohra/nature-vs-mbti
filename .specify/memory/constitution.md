@@ -1,55 +1,80 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A -> 1.0.0
+Modified principles: N/A
+Added sections: Purpose, Core Principles (Nature Through Minds specific), Target Audience, Technology Constraints, Non-Goals, Success Criteria, Guiding Philosophy
+Removed sections: Template placeholders
+Templates requiring updates: ⚠ pending (no templates to update for this project)
+Follow-up TODOs: None
+-->
+
+# Nature Through Minds Constitution
+
+## Purpose
+
+This project is an educational, static website designed to demonstrate Spec-Driven Development using Spec-Kit Plus.
+
+It explores:
+
+1. The beauty of nature
+2. How different MBTI personality types perceive nature
+
+The project serves both as:
+- A learning resource about nature and psychology
+- A practical example of structured specification writing
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Spec-first, code-second
+Every feature starts with a specification; code is implemented only after spec approval; Clear separation between requirements and implementation ensures quality
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Human-centered storytelling
+Focus on emotional connection and user experience; Content must resonate with diverse personality types; User empathy drives design decisions
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Psychological diversity and emotional awareness
+Embrace different perspectives and personality types; Content must be accessible and meaningful to various MBTI types; Psychological sensitivity in presentation and interaction
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Simplicity, clarity, and beauty
+Minimalist design approach; Clean, readable codebase; Beautiful presentation of nature content; Unnecessary complexity must be justified
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Educational value and accessibility
+Content must be educational and informative; Website must be accessible to all users; Learning outcomes clearly defined and measurable
 
-### [PRINCIPLE_6_NAME]
+### VI. Static and performant
 
+Static site architecture for speed and reliability; Performance optimized for all devices; Fast loading times prioritized
 
-[PRINCIPLE__DESCRIPTION]
+## Technology Constraints
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+- HTML, CSS, JavaScript only
+- No backend, no frameworks
+- Fully static and accessible
+- No external dependencies
+- Responsive design required
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Non-Goals
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+- No authentication
+- No databases
+- No advanced animations or heavy graphics
+- No backend services
+- No real-time features
+- No user-generated content
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Success Criteria
+
+- Clear separation of specification phases
+- Easy navigation and readable content
+- Emotional connection with users
+- Clean, understandable codebase
+- Educational value demonstrated
+- Accessible to diverse audiences
+
+## Guiding Philosophy
+
+> "Nature is the same, yet every mind sees it differently."
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs all development decisions; Amendments require documentation and team approval; All PRs must verify compliance with these principles; Code reviews check for adherence to constraints
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-01-06 | **Last Amended**: 2026-01-06
